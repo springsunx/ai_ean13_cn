@@ -17,45 +17,45 @@
   <div class="main">
 
     <div class="row" id="enter_code_row">
-      <input class="txt_fld hostTextarea" id="code_val" type="text" maxlength="50" placeholder="Enter 12 digits"/>
+      <input class="txt_fld hostTextarea" id="code_val" type="text" maxlength="50" placeholder="输入12位数字"/>
       <span class="label" id="check_digit">X</span>
-      <input class="hostButton" id="btn_gen" type="button" value="Ok"/>
+      <input class="hostButton" id="btn_gen" type="button" value="添加"/>
     </div>
 
   </div>
   <div class="settings-title" id="settings_title">
-    <!--&#9660;--><span class="settings-title-span settings-title-span_open">Settings</span>
+    <!--&#9660;--><span class="settings-title-span settings-title-span_open">设置</span>
   </div>
 
   <div id="settings" class="">
     <div class="block">
       <div class="row">
         <input class="ch_base" id="ch_led" type="checkbox"/>
-        <span class="label lbl_table" id="lbl_led">quiet zone (>)</span>
+        <span class="label lbl_table" id="lbl_led">静区指标(>)</span>
         <input class="ch_base" type="checkbox" id="ch_center"/>
-        <span class="label">center code</span>
+        <span class="label">中心放置</span>
       </div>
       <div class="row">
         <input class="ch_base" id="ch_add_bg" type="checkbox"/>
-        <span class="label lbl_table">bg rectangle</span>
+        <span class="label lbl_table">外框矩形</span>
         <input class="ch_base" type="checkbox" id="ch_select"/>
-        <span class="label">select code</span>
+        <span class="label">选中条码</span>
       </div>
     </div>
     <div class="block">
       <div class="row">
         <input class="ch_base" type="checkbox" id="ch_new_lay"/>
-        <span class="label">add code to new layer</span>
+        <span class="label">添加条码到新层</span>
       </div>
       <div class="row">
-        <span class="label lbl_fld">layer name:</span>
-        <input class="txt_fld hostTextarea" id="lay_name_val" type="text" placeholder="input new layer name"
+        <span class="label lbl_fld">图层名:</span>
+        <input class="txt_fld hostTextarea" id="lay_name_val" type="text" placeholder="输入新图层名称"
                disabled="disabled"/>
       </div>
     </div>
     <div class="block">
       <div class="row">
-        <span class="label lbl_fld">line reduce:</span>
+        <span class="label lbl_fld">线减细:</span>
         <input class="txt_fld hostTextarea" id="reduce_val" type="number"
                min="-0.05" max="0.00" step="0.01" value="0"/>
       </div>
@@ -70,9 +70,9 @@
     </div>
 
     <div class="row slave-buttons">
-      <input class="hostButton" id="btn_save" type="button" value="Save"/>
-      <input class="hostButton" id="btn_defaults" type="button" value="Default"/>
-      <input class="hostButton" id="btn_refresh" type="button" value="Refresh"/>
+      <input class="hostButton" id="btn_save" type="button" value="保存"/>
+      <input class="hostButton" id="btn_defaults" type="button" value="默认"/>
+      <input class="hostButton" id="btn_refresh" type="button" value="刷新"/>
     </div>
 
   </div>
